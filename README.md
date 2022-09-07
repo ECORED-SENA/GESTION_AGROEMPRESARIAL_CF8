@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **La empresa y la gestión de la información**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_123500_Gestion_Negocios_Finanzas/](https://ecored-sena.github.io/CF1_123500_Gestion_Negocios_Finanzas/)
 
 #
 
