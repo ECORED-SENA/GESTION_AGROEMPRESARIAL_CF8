@@ -310,7 +310,7 @@
                   h3.text-white Afiance su saber en relación con la entrevista, explorando el documento: 
                   p.mb-1.text-white Anexo_1_LaEntrevista.
                 .col-md-auto
-                  a.boton.color-custom-7(:href="obtenerLink('downloads/Anexo_1_CertificacionesNacionalesInternacionales.pdf')" target="_blank")
+                  a.boton.color-custom-7(:href="obtenerLink('downloads/Anexo_1_LaEntrevista.pdf')" target="_blank")
                     span Ver
                     .row
                       .col-auto
