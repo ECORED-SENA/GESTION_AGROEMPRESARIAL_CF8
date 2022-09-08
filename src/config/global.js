@@ -1,33 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'La empresa y la gestión de la información',
+    componenteFormativo: 'La estadística en la unidad productiva',
     descripcionCurso:
-      'En este componente, se da el ingreso al mundo empresarial, iniciando con los fundamentos de conceptos de empresa y sus tipologías, describiendo los métodos o matrices diseñados para realizar diagnóstico organizacional, lo que sumado aporta a que la empresa se direccione a objetivos alcanzables y medibles de acuerdo con su realidad y sus capacidades, se busca además alcanzar nuevos retos convirtiendo debilidades en fortalezas.',
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
+      'Comprender la información y sus elementos clave, permite gestionarla adecuadamente y aprovechar las ventajas que de ella se derivan. Con el estudio de este componente, el aprendiz se afianzará en el análisis estadístico y el uso de metodologías de recolección de información y otras herramientas relacionadas, para maximizar resultados en cualquier estudio del ecosistema que envuelve a la unidad productiva.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/images/header/cohete.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/images/header/mano.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/images/header/pesos.png'),
-      },
-      {
-        clases: ['banner-principal-decorativo-4'],
-        imagen: require('@/assets/curso/images/header/tabla.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/images/header/visto.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -46,31 +23,31 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Empresas',
+        titulo: 'Información',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Clasificación',
+            titulo: 'Tipos de información',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: ' Áreas funcionales',
+            titulo: 'Componentes de un proyecto',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Diagnóstico organizacional',
+            titulo: 'Ciclos de vida',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Matrices diagnosticas ',
+            titulo: 'Confidencialidad',
             hash: 't_1_4',
           },
         ],
@@ -79,26 +56,71 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Instrumentos de recolección de información',
+        titulo: 'Estadística',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Tipos',
+            titulo: 'Objetivos de la estadística',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Técnicas',
+            titulo: 'Clasificación de la estadística',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Grupos de interés',
+            titulo: 'Variables',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Muestreo',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Video interactivo',
+            hash: 't_2_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Métodos de recolección de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Diagnóstico e identificación',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Entrevista',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Encuesta',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Análisis de contenido ',
+            hash: 't_3_4',
           },
         ],
       },
@@ -145,143 +167,78 @@ export default {
   referencias: [
     {
       referencia:
-        'Amador, A. y Oviedo G. (2006). Análisis de competitividad del biodiesel colombiano. Instituto Tecnológico y de Estudios Superiores de Monterrey.',
+        'Emanuelli, P., Egidos, D., Orúzar, I., García, D., Dorado, C., Ulla, C., Cárcar, M., y Blanco, C. (2012). Herramientas de metodología para investigar en comunicación: técnicas de recolección y análisis de la información. Primera edición. Editorial Copy-Rápido',
       link:
-        'https://repository.unab.edu.co/bitstream/handle/20.500.12749/1973/2006_Tesis_Amador_Andrea.pdf?sequence=1&isAllowed=y',
+        ' https://filadd.com/doc/tomo2-1-manual-herramientas-de-metodol-para',
     },
     {
       referencia:
-        'Bravo, L., Ramos, P., Tejada, A. y Valenzuela, A. (2019). Perspectiva teórica del diagnóstico organizacional. Revista Venezolana de Gerencia, 24(88), p. 1316 – 1328.',
-      link: 'https://www.redalyc.org/journal/290/29062051021/html/',
+        'Congreso de Colombia. (2008). Ley estatutaria 1266 de 2008, Por la cual se dictan las disposiciones generales del hábeas data y se regula el manejo de la información contenida en bases de datos personales, en especial la financiera, crediticia, comercial, de servicios y la proveniente de terceros países y se dictan otras disposiciones. Diciembre 31 de 2008. DO. Nº 47.219.',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=34488',
     },
     {
       referencia:
-        'Cardoso, M. y Poveda, N. (2021). Diagnóstico Organizacional y Plan de Mejoramiento para la Microempresa Modas Milenio del municipio de La Mesa, Cundinamarca [Trabajo de grado]. Universidad de Cundinamarca.',
+        'Congreso de Colombia. (2012). Ley estatutaria 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Octubre 17 de 2012. DO. Nº 48.587.',
       link:
-        'https://repositorio.ucundinamarca.edu.co/bitstream/handle/20.500.12558/3761/Diagn%c3%b3stico%20organizacional%20y%20plan%20de%20mejoramiento%20para%20la%20microempresa%20modas%20milenio%20del%20municipio%20de%20La%20Mesa-%20Cundinamarca.pdf?sequence=1&isAllowed=y',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1581_2012.html',
     },
     {
       referencia:
-        'Celaya, R., González, N., Ramírez, R. y Valenzuela, C. (2010). Diagnóstico organizacional: una mirada hacia el futuro. Instituto Tecnológico de Sonora [ITSON].',
+        'Pérez, A. (2020). Las 4 fases del ciclo de vida de los datos. OBS Business School.',
       link:
-        'https://www.itson.mx/publicaciones/pacioli/Documents/no70/43b-diagnostico_organizacional_una_mirada_hacia_el_futuro_noviembre_2010_corregido.pdf ',
+        'https://www.obsbusiness.school/blog/las-4-fases-del-ciclo-de-vida-de-los-datos',
     },
     {
       referencia:
-        'Código de Comercio. (2020). Artículo 461. Definición de la sociedad de economía mixta.',
+        'Qualtrics.com. (2020). Cómo calcular el tamaño de una muestra: asegúrese de que el muestreo sea correcto. Qualtrics.com',
       link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr014.html#:~:text=ART%C3%8DCULO%20461.,salvo%20disposici%C3%B3n%20legal%20en%20contrario',
-    },
-    {
-      referencia:
-        ' Decreto 957 de 2019. [Ministerio de Industria, Comercio y Turismo]. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015, Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.  Junio 5 de 2019.',
-      link:
-        'https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf',
-    },
-    {
-      referencia:
-        'Gallardo, Y. y Moreno, A. (1999). Aprender a Investigar. Módulo 3. Recolección de la Información. ICFES.',
-      link:
-        ' https://www.unilibrebaq.edu.co/unilibrebaq/images/CEUL/mod3recoleccioninform.pdf',
-    },
-    {
-      referencia: 'Gerencie.com. (2022). Sociedad Unipersonal.',
-      link:
-        ' https://www.gerencie.com/las-sociedades-unipersonales-no-existen-en-colombia.html',
-    },
-    {
-      referencia:
-        'Matiz, F. y Pérez, A. (2009). Planeando la  Empresa I. Editorial Universidad EAN.',
-      link:
-        'https://editorial.universidadean.edu.co/acceso-abierto/planeando-la-empresa-i.pdf',
-    },
-    {
-      referencia:
-        'Münch, L. (2004). Fundamentos de Administración. Casos y Prácticas. Editorial Trillas.',
-    },
-    {
-      referencia:
-        'Pedraza, M., Sastoque, J., Serrano, L. y Tarazona, D. (2015). Diagnóstico organizacional a 100 Mipymes de Fusagasugá [Trabajo de investigación]. Universidad de Cundinamarca.',
-      link:
-        'https://repositorio.ucundinamarca.edu.co/bitstream/handle/20.500.12558/1349/DIAGNOSTICO%20ORGANIZACIONAL%20A%20100%20MIPYMES%20DE%20FUSAGASUGA.pdf?sequence=1&isAllowed=y',
-    },
-    {
-      referencia:
-        'Robichaud, F. (2018). Mapeo de grupos de interés: Cuándo, por qué y cómo mapear los grupos de interés.',
-      link:
-        'https://www.boreal-is.com/es/blog/mapeo-partes-interesadas-grupos-interes/',
-    },
-    {
-      referencia:
-        'Ramírez, C. (2009) Fundamentos de Administración. Ecoe Ediciones.',
-      link:
-        'https://books.google.com.co/books?hl=es&lr=&id=zXs5DwAAQBAJ&oi=fnd&pg=PP1&dq=Libros+acerca+de+administraci%C3%B3n+y+concepto+de+empresa&ots=sIinLGLTsA&sig=_LpcfRYwDoHZLbx5nry9LKpSYIA&redir_esc=y#v=onepage&q=Libros%20acerca%20de%20administraci%C3%B3n%20y%2',
+        'https://www.qualtrics.com/es-la/gestion-de-la-experiencia/investigacion/calcular-tomano-muestra/',
     },
   ],
   glosario: [
     {
-      termino: 'Administración',
+      termino: 'Fenómeno',
       significado:
-        'Ciencia que coordina recursos mediante procesos, procedimientos y métodos que permiten el logro de los objetivos organizacionales.',
+        'Cualquier situación o manifestación que se percibe con los sentidos.',
     },
     {
-      termino: 'Diagnóstico',
-      significado:
-        'Análisis o investigación que se realiza con el fin de determinar una situación, tendencia o causa de un problema, reconocer su entorno y proponer posibles soluciones que probablemente causarán cambios en la organización.',
+      termino: 'Inferencia',
+      significado: 'Que deduce una afirmación a partir de otras.',
     },
     {
-      termino: 'Matriz',
-      significado:
-        'Instrumento de gestión en la organización que permite recoger información acerca de un proceso, actividad o estrategia implementada en la organización, con el fin de consolidar la información, posteriormente analizarla, y finalmente, utilizarla para la toma de decisiones.',
+      termino: 'Muestra',
+      significado: 'Conjunto de población sobre la que se extraerán los datos.',
     },
     {
-      termino: 'Método',
-      significado:
-        'Modelos y procedimientos metodológicos y sistemáticos que aportan al estudio de un problema u objeto de una situación, para la construcción de conocimiento válido y comprobable de un fenómeno particular por medio de una observación, tesis, hipótesis, entre otros elementos. ',
+      termino: 'Población',
+      significado: 'Totalidad de individuos objeto de estudio.',
     },
     {
-      termino: '<i>Stakeholders</i>',
+      termino: 'Proyección',
       significado:
-        'Grupos de interés  o partes interesadas de la organización que influyen de manera directa e impactan a la organización en el logro de sus objetivos.',
+        'Diseño de una situación de forma anticipada a su ocurrencia.',
     },
     {
-      termino: 'Técnica',
+      termino: 'Variable',
       significado:
-        'Conjunto de procedimientos cuyo objetivo es garantizar la operatividad del proceso investigativo con el fin de obtener suficiente información y conocimiento para resolver los interrogantes planteados orientados a la solución del problema u objeto de la investigación.',
+        'Características de los sujetos objeto de investigación, a través de la recolección de información, en un proceso estadístico.',
     },
   ],
   complementario: [
     {
-      tema: '1.1. Clasificación.',
+      tema: 'Estadística',
       referencia:
-        'Decreto 957 de 2019. [Ministerio de Industria, Comercio y Turismo]. Por el cual se adiciona el capítulo 13 al Título 1 de la Parte 2 del Libro 2 del Decreto 1074 de 2015, Decreto Único del Sector Comercio, Industria y Turismo y se reglamenta el artículo 2° de la Ley 590 de 2000, modificado por el artículo 43 de la Ley 1450 de 2011.  Junio 5 de 2019.',
-      tipo: 'Documento legal - Decreto',
-      link:
-        'https://dapre.presidencia.gov.co/normativa/normativa/DECRETO%20957%20DEL%2005%20DE%20JUNIO%20DE%202019.pdf',
+        'Matemáticas profe Alex. (2017). Conceptos básicos de estadística ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Xq3thcQqwbc',
     },
     {
-      tema: '1.2. Áreas funcionales.',
+      tema: 'Métodos de recolección de datos',
       referencia:
-        'Cámara de Comercio de Cúcuta. (s. f.). Consolidado comparativo de sociedades',
-      tipo: 'Documento – cuadro comparativo',
-      link:
-        'https://www.cccucuta.org.co/uploads_descarga/desc_49414aa27e2ee1132e863a9d4d1b8f09.pdf',
-    },
-    {
-      tema: '1.3. Diagnóstico organizacional.',
-      referencia:
-        'Hoyos, G. (2018). El modelo de las cinco Fuerzas de Porter como instrumento para la adopción de decisiones estratégicas organizacionales: aplicación al sector de la Construcción Naval Militar. [Trabajo de Grado]. Centro Universitario de la Defensa en la Escuela Naval Militar',
-      tipo: 'Documento – trabajo de grado',
-      link:
-        'http://calderon.cud.uvigo.es/bitstream/handle/123456789/232/Hoyos%20Perales%2c%20Guillermo%20memoria.pdf',
-    },
-    {
-      tema: '2. Instrumentos de recolección de la información.',
-      referencia:
-        'Gallardo, Y. y Moreno, A. (1999). Aprender a Investigar. Módulo 3. Recolección de la Información. ICFES.',
-      tipo: 'Libro',
-      link:
-        'https://www.unilibrebaq.edu.co/unilibrebaq/images/CEUL/mod3recoleccioninform.pdf',
+        'Unicef Innocenti. (2014). Métodos de recolección y análisis de datos en la evaluación de impacto ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Ph1WX0cH5-4',
     },
   ],
   creditos: {
@@ -300,24 +257,24 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Norma Constanza Morales Cruz',
-        cargo: 'Experta Técnica',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        nombre: 'Andrés Felipe Avilan Lozano',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
-        nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñadora y Evaluadora Instrucciona',
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
         centro:
           'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
       },
       {
-        nombre: 'Carolina Coca Salazar',
+        nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Asesora Metodológica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: 'Darío González',
-        cargo: 'Corrector de Estilo',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
@@ -334,14 +291,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Edison Eduardo Mantilla Cuadro',
+        nombre: 'Diana Carolina Acevedo Barón',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
-        cargo: 'Desarrollo front-end',
+        cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -363,7 +320,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Melina Tatiana Quintero Rodriguez',
+        nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
