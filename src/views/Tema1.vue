@@ -136,7 +136,7 @@
     Separador 
 
     #t_1_2.titulo-segundo
-      .h2 1.2  Componentes de un proyecto
+      .h2 1.2  Fuentes de información
 
     p.mb-3 La información se encuentra disponible en diversas fuentes según cada situación. Se puede denominar fuente de información a cualquier instancia, persona, equipo, documento, maquinaria o situación de la cual se puedan extraer datos o información, útil o no.
 
@@ -330,7 +330,7 @@
               img(src='@/assets/curso/images/tema1/ico_6.svg').mb-3
               h4.mb-5.text-center.text-white  Ley 1266 de 2008
               a.boton.me-3.indicador__container.mt-4(
-                :href="obtenerLink('downloads/prueba.pdf')"
+                :href="obtenerLink('downloads/Ley1266de2008NivelNacional.pdf')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -345,7 +345,7 @@
               img.mt-3(src='@/assets/curso/images/tema1/ico_6.svg').mb-3
               h4.mb-0.text-center Ley 1581 de 2012
               a.boton.me-3.indicador__containe.mt-5(
-                :href="obtenerLink('downloads/prueba.pdf')"
+                :href="obtenerLink('downloads/LEY_1581_2012.pdf')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
@@ -360,7 +360,7 @@
               img(src='@/assets/curso/images/tema1/ico_6.svg').mb-3
               h4.mb-5.text-center  Decreto 1377 de 2013 
               a.boton.me-3.indicador__container.color-boton(
-                :href="obtenerLink('downloads/prueba.pdf')"
+                :href="obtenerLink('downloads/DECRETO1377DE2013.pdf')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"

@@ -29,7 +29,7 @@
     Separador 
 
     #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+      .h4 2.1 Objetivos de la estadística
 
     p.mb-3 Si bien la principal función de la estadística es aportar los medios necesarios para comprender los hechos sobre los cuales se recolecta información. La aproximación objetiva a la realidad y el entendimiento de la misma, son beneficios que la estadística trae consigo y que, para las organizaciones, representa poder describir procesos, sugerir hipótesis de estrategias, entre otras.
 
@@ -98,7 +98,7 @@
 
           .tarjeta.color-custom-4.p-3(x="42%" y="63%" numero="+")
             .h5.mb-2 Ordinal
-            p.mb-0  Tienen un orden o jerarquía, por ejemplo, niveles de satisfacción (muy satisfecho, satisfecho, insatisfecho)
+            p.mb-0  Tienen un orden o jerarquía, por ejemplo, niveles de satisfacción (muy satisfecho, satisfecho, insatisfecho).
 
 
           .tarjeta.color-custom-4.p-3(x="42%" y="78%" numero="+")

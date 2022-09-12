@@ -34,7 +34,7 @@
 
           .tarjeta.color-custom-4.p-3(x="99%" y="38%" numero="+")
             .h5.mb-2 Objeto o hipótesis de investigación
-            p.mb-3 Determinar la problemática o la formulación de la hipótesis, permite hacer un acercamiento a la clasificación de los instrumentos de recolección de información más útiles
+            p.mb-3 Determinar la problemática o la formulación de la hipótesis, permite hacer un acercamiento a la clasificación de los instrumentos de recolección de información más útiles.
             p.mb-0 Se supone que los datos recolectados influyen en la validación o cuestionamiento de la problemática presentada, puesto que toda información ejerce un objetivo.
 
           .tarjeta.color-custom-4.p-3(x="99%" y="62%" numero="+")
@@ -52,8 +52,7 @@
     Separador
 
     #t_3_1.titulo-segundo
-      .h4 3.1  Diagnóstico e identificación
-    
+      .h4 3.1 Observación
 
     .row.justify-content-center.align-items-center.p-2
       .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-right")

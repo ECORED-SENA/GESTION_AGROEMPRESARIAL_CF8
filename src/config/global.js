@@ -35,7 +35,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Componentes de un proyecto',
+            titulo: 'Fuentes de información',
             hash: 't_1_2',
           },
           {
@@ -83,12 +83,6 @@ export default {
             titulo: 'Muestreo',
             hash: 't_2_4',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
         ],
       },
       {
@@ -101,7 +95,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Diagnóstico e identificación',
+            titulo: 'Observación',
             hash: 't_3_1',
           },
           {
@@ -320,7 +314,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
