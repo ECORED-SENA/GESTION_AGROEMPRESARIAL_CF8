@@ -142,7 +142,7 @@
 
 
     .row.justify-content-center.align-items-center
-      .col-lg-12
+      .col-lg-10
         .bloque-texto-g.color-custom-1.p-3.p-sm-4.p-md-5.mb-5.d-none.d-lg-block
           .bloque-texto-g__img(data-aos="fade-right")(
             :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_3.png')})`}"
@@ -160,21 +160,21 @@
             img(src='@/assets/curso/images/tema1/img_3.png' alt='', style="width:400px; display:block; margin:-1rem 0 ;").mb-3
 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-up")
       .col-lg-12
         .jumbotron.p-4
           .row.justify-content-center.align-items-center
             .col-lg-1
               img(src='@/assets/curso/images/tema1/ico_3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col-lg-11
-              h3 Para tener presente
+              h4 Para tener presente
               p.mb-3 Existe información que ha sufrido procesos de transformación gracias a la intervención de terceros, lo que significa que no recibimos los datos de las fuentes originales, sino secundarias. A esta segunda categoría pertenecería la información recolectada a través de las noticias, donde resumen y opinan respecto del mismo partido de fútbol del ejemplo anterior. 
               p.mb-0 Aunque el fenómeno observable, es decir, el partido de fútbol es el mismo para ambas situaciones, las fuentes de información varían, unas son primarias o directas, mientras que las otras son secundarias o indirectas.
 
     p.mb-3 A continuación, se invita a observar un video donde se exponen las generalidades y distinciones entre los tipos de fuente de información (primaria y secundaria):
 
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/vE77y1o8DWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
 
@@ -196,17 +196,15 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema1/fig_1.svg')
-      .col-lg-4 
+      .col-lg-4(data-aos="fade-left")  
         img(src='@/assets/curso/images/tema1/img_4.png').mb-3
         p.mb-0 En este proceso de utilización de los datos, comprender su ciclo de vida permite contar con una serie de parámetros que mejoran la productividad a partir de una correcta planificación, transmitiendo la información a los usuarios apropiados y dotando de seguridad el proceso, para conservarla por el tiempo que resulte más conveniente.
 
     p.mb-3 Se invita a conocer con mayor profundidad, las fases del ciclo de vida de la información que a continuación se enuncian; es útil llevar registro de lo más destacado en su libreta personal de apuntes.
 
 
-    .row.justify-content-center.align-items-star.p-2
-      .col-lg-4(data-aos="fade-right")
-        img(src='@/assets/curso/images/tema1/img_5.png').mb-3
-      .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-star
+      .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-right")
         LineaTiempoD.color-secundario.especial
           .row(titulo='Creación y captura' numero='1')
             .row.justify-content-center.align-items-star
@@ -215,24 +213,24 @@
 
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
-                    p #[span.color-text Información ya disponible]
+                    i.fas.fa-circle.font-size
+                    p.mb-0 #[span.color-text Información ya disponible]
                 p Es la segunda posibilidad de obtención de la información y es la más usual, por lo que las fuentes de información de mayor uso son las siguientes: <b>medios de acceso público, información generada por terceros, creación propia.</b>
 
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
-                    p  #[span.color-text Obtención de la información ya disponible]
+                    i.fas.fa-circle.font-size
+                    p.mb-0  #[span.color-text Obtención de la información ya disponible]
                 ul.lista-ul--color
                   li 
                     i.fas.fa-check
-                    p Datos disponibles en medios de acceso público como la web, periódicos, revistas o libros.
+                    p.mb-0 Datos disponibles en medios de acceso público como la web, periódicos, revistas o libros.
                   li 
                     i.fas.fa-check
-                    p Información generada por otras empresas pertenecientes al mismo sector, quienes llevan la delantera en cuanto a tiempo en el mercado.
+                    p.mb-0 Información generada por otras empresas pertenecientes al mismo sector, quienes llevan la delantera en cuanto a tiempo en el mercado.
                   li 
                     i.fas.fa-check
-                    p Creación propia a partir de la colaboración entre diversos agentes de la empresa como sus propietarios, empleados o clientes.
+                    p.mb-0 Creación propia a partir de la colaboración entre diversos agentes de la empresa como sus propietarios, empleados o clientes.
                 
 
           .row(titulo='Transmisión, almacenamiento y seguridad' numero='2')
@@ -242,31 +240,41 @@
 
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
-                    p  #[span.color-text Transmisión]
+                    i.fas.fa-circle.font-size
+                    p.mb-0  #[span.color-text Transmisión]
 
                 p.mb-3 Comunicar los datos a quienes se espera que lleguen resulta un paso elemental en la gestión de la información. De poco sirve indagar y obtener datos útiles si no se puede compartir a los individuos que requieren de ellos para tomar decisiones o ejecutar acciones. La transmisión de los datos <b>se debe posibilitar a través de sistemas que garanticen la recepción y entrega de la información entre las áreas internas o externas </b> de la empresa.
 
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
-                    p  #[span.color-text Almacenamiento]
+                    i.fas.fa-circle.font-size
+                    p.mb-0  #[span.color-text Almacenamiento]
 
                 p.mb-3 Para conservar la información hace falta un espacio físico o digital dedicado a ello; la mecánica más utilizada, en la actualidad, es el uso de bases de datos, que son <b>sistemas encargados de almacenar y controlar el acceso a la información,</b> haciendo uso de una serie de parámetros que dispone el administrador.
 
                 ul.lista-ul--color
                   li 
-                    i.fas.fa-circle
-                    p  #[span.color-text Seguridad]
+                    i.fas.fa-circle.font-size
+                    p.mb-0  #[span.color-text Seguridad]
 
                 p.mb-3 Deben existir <b> medidas que garanticen que la información almacenada solo llegue a los destinatarios deseados;</b> de lo contrario, los datos están expuestos a ser obtenidos por terceros que pueden ser malintencionados. Existe información muy sensible como datos personales de terceros, listados de clientes y proveedores clave o, incluso, fórmulas o métodos de producción efectivos que brindan ventajas competitivas en relación con otras empresas.
 
           .row(titulo='Análisis y explotación de datos' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-4.mb-4.mb-lg-0
+                img(src='@/assets/curso/images/tema1/img_6.png').mb-3
+              .col-12.col-lg-8.mb-4.mb-lg-0
+                p.mb-3  Como primer paso, en el ciclo de vida de la información, se tiene su obtención o creación, bien sea por un trabajo de descubrimiento a través de la experimentación o producto del apoyo en fuentes elaboradas por terceros.
+          
+          .row(titulo='Análisis y explotación de datos' numero='4')
+            .row.justify-content-center.align-items-star
+              .col-12.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema1/img_7.png').mb-3
               .col-12.col-lg-8.mb-4.mb-lg-0
                 p.mb-3  Última fase del ciclo de vida de la información; consiste en el análisis de los datos obtenidos o elaborados para lograr conclusiones de fondo que aporten a la renovación de las estrategias. Los informes se elaboran a partir del trabajo realizado y aportan el contenido más útil, en relación con su extensión. De ellos surge la materia procesada con la que se pueden tomar decisiones a cualquier nivel. 
+      .col-lg-4(data-aos="fade-left")
+        img(src='@/assets/curso/images/tema1/img_5.png').mb-3
+     
  
     Separador 
 
@@ -281,7 +289,7 @@
       .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
         .cajon.color-custom-5
           .row.justify-content-center.align-items-center.p-2
-            .col-5.col-lg-2
+            .col-4.col-lg-2
               img(src='@/assets/curso/images/tema1/ico_8.svg').mb-3
             .col-lg-10
               h4 ARTICULO 15. 
@@ -290,35 +298,35 @@
 
     p.mb-3 En relación con la confidencialidad de la información, se deben tener en cuenta los siguientes aspectos:
 
-    .row.justify-content-center.align-items-center.p-2
+    .row.justify-content-center.align-items-center
       .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_9.svg').mb-3
       .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            | En la recolección, tratamiento y circulación de datos se respetarán la libertad y demás garantías consagradas en la Constitución.
+            p.mb-0 En la recolección, tratamiento y circulación de datos se respetarán la libertad y demás garantías consagradas en la Constitución.
           li 
             i.fas.fa-check
-            | La correspondencia y demás formas de comunicación privada son inviolables.            
+            p.mb-0 La correspondencia y demás formas de comunicación privada son inviolables.            
           li
             i.fas.fa-check
-            | Las formas de comunicación solo pueden ser interceptadas o registradas mediante orden judicial, en los casos y con las formalidades que establezca la ley.          
+            p.mb-0 Las formas de comunicación solo pueden ser interceptadas o registradas mediante orden judicial, en los casos y con las formalidades que establezca la ley.          
           li 
             i.fas.fa-check
-            | Para efectos tributarios o judiciales y para los casos de inspección, vigilancia e intervención del Estado, podrá exigirse la presentación de libros de contabilidad y demás documentos privados, en los términos que señale la ley.
+            p.mb-0 Para efectos tributarios o judiciales y para los casos de inspección, vigilancia e intervención del Estado, podrá exigirse la presentación de libros de contabilidad y demás documentos privados, en los términos que señale la ley.
           li 
             i.fas.fa-check
-            p No solo basta con garantizar la intimidad de las personas, salvaguardando la información transmitida por cualquier sistema de comunicación privada, sino, también, el acceso a lo contenido en los bancos de datos. 
+            p.mb-0 No solo basta con garantizar la intimidad de las personas, salvaguardando la información transmitida por cualquier sistema de comunicación privada, sino, también, el acceso a lo contenido en los bancos de datos. 
           li 
             i.fas.fa-check
-            | En el año 2008 fue emitida la Ley Estatutaria 1266, que regula el tratamiento de la información contenida en bases de datos. 
+            p.mb-0 En el año 2008 fue emitida la Ley Estatutaria 1266, que regula el tratamiento de la información contenida en bases de datos. 
           li 
             i.fas.fa-check
-            | El artículo 6° de la ley mencionada presenta una serie de derechos que poseen los titulares de la información, sus fuentes y los usuarios.
+            p.mb-0 El artículo 6° de la ley mencionada presenta una serie de derechos que poseen los titulares de la información, sus fuentes y los usuarios.
           li 
             i.fas.fa-check
-            | De esta misma forma, el artículo 7° lista los deberes de los operadores que acceden o hacen uso de ellas.
+            p.mb-0 De esta misma forma, el artículo 7° lista los deberes de los operadores que acceden o hacen uso de ellas.
 
     p.mb-5 Profundice en las normas más relevantes en materia de información y confidencialidad, explorando los enlaces que aquí se indican:
 
@@ -328,7 +336,11 @@
           .row.justify-content-center.align-items-center
             .col-5.col-lg-4.mb-4.mb-lg-0.p-0
               img(src='@/assets/curso/images/tema1/ico_6.svg').mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-10.mb-4.mb-lg-0.p-0 
               h4.mb-5.text-center.text-white  Ley 1266 de 2008
+          .row.justify-content-center.align-items-center
+            .col-4.col-lg-5.mb-4.mb-lg-0.p-0 
               a.boton.me-3.indicador__container.mt-4(
                 :href="obtenerLink('downloads/Ley1266de2008NivelNacional.pdf')"
                 target="_blank"
@@ -343,8 +355,12 @@
           .row.justify-content-center.align-items-center
             .col-5.col-lg-4.mb-4.mb-lg-0.p-0
               img.mt-3(src='@/assets/curso/images/tema1/ico_6.svg').mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-10.mb-4.mb-lg-0.p-0 
               h4.mb-0.text-center Ley 1581 de 2012
-              a.boton.me-3.indicador__containe.mt-5(
+          .row.justify-content-center.align-items-center
+            .col-5.col-lg-5.mb-4.mb-lg-0.p-0 
+              a.boton.me-2.indicador__containe.mt-5(
                 :href="obtenerLink('downloads/LEY_1581_2012.pdf')"
                 target="_blank"
                 type="application/pdf"
@@ -358,7 +374,11 @@
           .row.justify-content-center.align-items-center
             .col-5.col-lg-4.mb-4.mb-lg-0.p-0  
               img(src='@/assets/curso/images/tema1/ico_6.svg').mb-3
+          .row.justify-content-center.align-items-center
+            .col-lg-10.mb-4.mb-lg-0.p-0 
               h4.mb-5.text-center  Decreto 1377 de 2013 
+          .row.justify-content-center.align-items-center
+            .col-4.col-lg-4.mb-4.mb-lg-0.p-0 
               a.boton.me-3.indicador__container.color-boton(
                 :href="obtenerLink('downloads/DECRETO1377DE2013.pdf')"
                 target="_blank"

@@ -12,7 +12,7 @@
     p.mb-5 Le damos la bienvenida al componente formativo “La estadística en la unidad productiva”. Para comenzar esta experiencia de aprendizaje, se invita a visualizar con atención el video que se muestra a continuación. ¡Adelante!
 
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/NHjhFJWVq6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     

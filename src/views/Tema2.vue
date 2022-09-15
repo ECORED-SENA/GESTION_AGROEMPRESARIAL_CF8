@@ -7,21 +7,21 @@
         span 2
       h1 Estadística
 
-    .row.justify-content-center.align-items-center.p-2
-      .col-12.col-lg-7.mb-4.p-0.p-md-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center
+      .col-12.col-lg-7.mb-4.p-0.p-md-5(data-aos="fade-right") 
         p.fondo-2.mb-3.p-2 Si la información es un elemento de vital importancia para la gestión y toma de decisiones, la estadística es la ciencia encargada de diseñar sistemas o metodologías que faciliten el proceso de recopilación y análisis de los datos, con el objetivo de obtener conclusiones, a partir de ellos o predecir situaciones a futuro en función de las tendencias que se identifiquen.
         .jumbotron-5.p-4
           p.mb-3 La estadística tiene la particularidad de ser útil en una multitud de disciplinas y profesiones, puesto que el análisis de la información recolectada se constituye como una actividad ligada a cualquier razonamiento lógico del ser humano. 
       
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_1.svg').mb-3
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-up")
       .col-lg-12
         .jumbotron.p-4
           .row.justify-content-center.align-items-center
             .col-lg-1
-              img(src='@/assets/curso/images/tema1/ico_3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;")
+              img(src='@/assets/curso/images/tema1/ico_3.svg' alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
             .col-lg-11
               h4 Para tener presente
               p.mb-0 Todas las áreas sociales y económicas se benefician, en mayor o menor medida, de la estadística, pues otorga ventajas en cuanto a productividad o eficiencia, así como en el sistema de registro histórico de datos para prever situaciones relevantes y problemáticas futuras.
@@ -29,19 +29,19 @@
     Separador 
 
     #t_2_1.titulo-segundo
-      .h4 2.1 Objetivos de la estadística
+      .h2 2.1 Objetivos de la estadística
 
     p.mb-3 Si bien la principal función de la estadística es aportar los medios necesarios para comprender los hechos sobre los cuales se recolecta información. La aproximación objetiva a la realidad y el entendimiento de la misma, son beneficios que la estadística trae consigo y que, para las organizaciones, representa poder describir procesos, sugerir hipótesis de estrategias, entre otras.
 
     p.mb-3 En definitiva, de las funcionalidades de la estadística se desprenden algunos objetivos que son de vital importancia en la operación de las empresas u organizaciones, a saber:
 
     .row.justify-content-center.align-items-center.mb-3
-      SlyderB.color-custom-6.mb-5.p-5(:datos="datosSlyder")(data-aos="zoom-in-down")
+      SlyderB.color-custom-6.mb-5(:datos="datosSlyder")(data-aos="zoom-in-down")
 
     Separador
 
     #t_2_2.titulo-segundo
-      .h4 2.2 Clasificación de la estadística
+      .h2 2.2 Clasificación de la estadística
 
     p.mb-3 Las formas de ejecución de los procesos estadísticos traen consigo resultados particulares o distintos que, en función de las acciones operativas de una organización, tendrán más validez en unos casos que en otros. Esto es lo que podría denominarse como la clasificación de la estadística. Aplicar la estadística reconociendo su utilidad diferenciada para cada caso, traerá más y mejores aportes para el alcance de objetivos, toma de decisiones y aplicación de acciones en un proyecto empresarial.
 
@@ -61,17 +61,17 @@
     p.mb-5 La estadística puede dividirse en dos tipos, de acuerdo con los resultados que se espere obtener a través de sus metodologías, así:
 
     .row.align-items-star.justify-content-center
-      .col-lg-5.mb-3
+      .col-lg-5.mb-3(data-aos="fade-right") 
         .jumbotron-6.p-5
           .row.justify-content-center.align-items-center
-            .col-5.col-lg-6.mb-4.mb-lg-0
+            .col-5.col-lg-5.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema2/ico_7.svg').mb-3
               h4.mb-3.text-center Estadística descriptiva
             p.mb-3 Se concentra en la descripción y evaluación de los fenómenos objeto de estudio. Detalla diversos sistemas de recolección, medición e interpretación de datos. Como herramientas de apoyo usa tabulaciones y gráficos que complementan los análisis descriptivos en donde se compilan las características fundamentales del fenómeno.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left") 
         .jumbotron-6.p-5
           .row.justify-content-center.align-items-center
-            .col-5.col-lg-6.mb-4.mb-lg-0
+            .col-5.col-lg-5.mb-4.mb-lg-0
               img.mt-3(src='@/assets/curso/images/tema2/ico_8.svg').mb-3
               h4.text-center Estadística inferencial
             p.mb-0 Pone su objetivo en la percepción y anticipación de eventos que aún no han sucedido. Su principal objetivo es deducir comportamientos a partir de la información recolectada. Identifica  tendencias sostenibles en el tiempo, a partir de datos obtenidos de una muestra y que, posteriormente, se escalarán a una población mayor.
@@ -79,7 +79,7 @@
     Separador
 
     #t_2_3.titulo-segundo
-      .h4 2.3 Variables
+      .h2 2.3 Variables
 
     p.mb-3 La estadística estudia las características de los sujetos objeto de investigación, a través de la recolección de información. Estas características reciben el nombre de variables, cuando por su naturaleza, son propensas a tomar diferentes valores, bien sea en términos cuantitativos o cualitativos. La cantidad de variables de un proceso estadístico estarán determinadas según la cantidad de factores o características que se pretendan observar, analizar o investigar y que, desde luego, aporten a los objetivos del proyecto empresarial.
 
@@ -117,7 +117,7 @@
     Separador
 
     #t_2_4.titulo-segundo
-      .h4 2.4  Muestreo
+      .h2 2.4  Muestreo
 
     .row.align-items-star.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right") 
@@ -131,7 +131,7 @@
     p.mb-5 En el siguiente video, se profundiza en los aspectos más importantes sobre el muestro en el ejercicio estadístico.
 
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-up")
         <iframe width="560" height="315" src="https://www.youtube.com/embed/yGbtOWCHY4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
     ol.lista-ol--cuadro
@@ -142,17 +142,17 @@
     
     p.mb-3 Elegir el tamaño necesario de la muestra para alcanzar los objetivos del estudio puede ser tan complejo y preciso como se desee. A continuación, se presentan los elementos clave a tener en cuenta:
 
-    .row.align-items-star.justify-content-center.mb-5
-      .col-lg-10(data-aos="fade-right") 
+    .row.align-items-star.justify-content-center.mb-5(data-aos="zoom-in-up")
+      .col-lg-10
         .jumbotron-8.p-5
           .row.align-items-center.justify-content-evenly.mb-3
-            .col-5.col-lg-1
+            .col-5.col-lg-1.px-md-0
               img(src='@/assets/curso/images/tema2/ico_2.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Población o universo (N)
               p.mb-0 Se refiere al total de individuos sobre los que se espera proyectar las conclusiones. Por ejemplo, toda la población de un municipio, los estudiantes de un colegio o los trabajadores de una empresa agropecuaria.
           .row.align-items-center.justify-content-evenly
-            .col-5.col-lg-1.d-none.d-lg-block
+            .col-5.col-lg-1.px-md-0.d-none.d-lg-block
               img(src='@/assets/curso/images/tema2/ico_3.svg').mb-2
             .col-5.col-lg-10.d-none.d-lg-block
               .row.align-items-center.justify-content-center.fondo-4
@@ -185,21 +185,21 @@
               img(src='@/assets/curso/images/tema2/img_tab.svg').mb-3
 
           .row.align-items-center.justify-content-evenly.mb-3
-            .col-5.col-lg-1
+            .col-5.col-lg-1.px-md-0
               img(src='@/assets/curso/images/tema2/ico_4.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Margen de error (e)
               p.mb-0 Mide el rango de tolerancia que diferencia al resultado obtenido de la muestra en comparación con el de la población. Por ejemplo, un margen de error del 5% implica que si el resultado de un estudio es una estatura promedio de las personas de la muestra en 1,80 cm, este indicador en la población oscila entre 1,71 cm y 1,89 cm, es decir 5% menor o 5% mayor del valor obtenido.
 
           .row.align-items-center.justify-content-evenly.mb-3
-            .col-5.col-lg-1
+            .col-5.col-lg-1.px-md-0
               img(src='@/assets/curso/images/tema2/ico_5.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Probabilidad de éxito (p)
               p.mb-0 Este indicador puede tomarse de otros estudios previos relacionados, si no existe ninguna noción al respecto, se deduce que la probabilidad de éxito y de fracaso son equivalentes, es decir 50%.
 
           .row.align-items-center.justify-content-evenly
-            .col-5.col-lg-1.d-none.d-lg-block
+            .col-5.col-lg-1.px-md-0.d-none.d-lg-block
               img(src='@/assets/curso/images/tema2/ico_6.svg').mb-2
             .col-5.col-lg-10.d-none.d-lg-block
               .row.align-items-center.justify-content-center.fondo-4.py-5

@@ -10,10 +10,10 @@
     p.mb-3 Cuando se pretende realizar un estudio de cualquier naturaleza, es de suma importancia aclarar incógnitas como: qué tipo de información será solicitada, qué herramienta será utilizada y en qué tipo de población será aplicada. Por ende, es aconsejable partir de reconocer los requisitos que se espera cubrir y la naturaleza de la información para, así, finalmente, plantear metodologías que se adapten de forma efectiva al perfil del estudio en cuestión.     
 
     .row.justify-content-center.align-items-center.mb-3.p-2
-      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-right")
         p.fondo-5.mb-3.p-2 En el curso o desarrollo de una investigación, la metodología de recolección de información toma un importante papel, puesto que la elección apropiada de esta, evita la obtención de resultados inútiles, esfuerzos desproporcionados, desaprovechamiento de recursos y el inadecuado manejo del tiempo, minimizando de forma influyente el margen de error.
       
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema3/img_1.png').mb-3
     
     p.mb-3 A continuación, se precisan una serie de elementos clave para la selección de un método de recolección de información:
@@ -54,8 +54,8 @@
     #t_3_1.titulo-segundo
       .h4 3.1 Observación
 
-    .row.justify-content-center.align-items-center.p-2
-      .col-12.col-lg-6.mb-4.p-0.p-md-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-star  
+      .col-12.col-lg-6.mb-4.p-0.p-md-2(data-aos="fade-right")
         p.mb-3  Los seres humanos a través de los sentidos tienen la capacidad de adquirir diferentes tipos de información o estímulos que les permiten adaptarse en un entorno y reconocer diferentes factores de este. La observación es uno de ellos, por medio de ella se pueden percibir datos y detalles específicos en lugares y momentos determinados, por lo tanto, se podría decir que funciona como un método de recolección de información.
         .jumbotron-10.p-4
           p.mb-3 La aplicación de la observación como metodología en el campo investigativo es muy utilizada. Uno de sus beneficios es que puede ser desarrollada de manera individual, no se requiere de un grupo extenso de expertos. Esta individualidad también permite que los resultados obtenidos, dentro de la investigación, sean homogéneos, puesto que simplifica distorsiones generadas por la pluralidad de opiniones; es flexible, se puede aplicar en cualquier campo o entorno y, por su facilidad de aplicación, permite economizar recursos.  
@@ -228,7 +228,7 @@
 
     .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.mb-0.mg-top-1.cs
     .row.align-items-center.justify-content-evenly.mb-5
-      .col-lg-6(data-aos="fade-left") 
+      .col-lg-6(data-aos="fade-right")
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -255,7 +255,7 @@
             .h5.mb-2 No dirigida o en profundidad
             p.mb-0  <b>Permiten tocar distintos temas de interés sin ahondar en ninguna sección en concreto,</b> usualmente son utilizadas en medios de comunicación como la televisión en específico la farándula, periódicos y revistas, el entrevistado responde preguntas de cualquier ámbito de su vida (profesionales - personales), su aplicación se desarrolla en un ambiente armonioso o familiar, esto con el fin de que el entrevistado pueda contestar de forma espontánea y honesta.
 
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-left") 
         img(src='@/assets/curso/images/tema3/img_9.png').mb-3
 
     .row.justify-content-center.align-items-center.mb-5
@@ -269,20 +269,14 @@
     
     p.mb-3 En el siguiente listado, se exponen los pasos más comunes y recomendados para la aplicación de la entrevista.
 
-    .row.align-items-center.justify-content-center
-      .col-lg-8
-        .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          h5 Figura 3
-          br
-          span  Pasos para la aplicación de la entrevista
-
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-8(data-aos="fade-right") 
-        .jumbotron-12.p-5
-          .row.align-items-center.justify-content-evenly
-            .col-5.col-lg-2
-              img(src='@/assets/curso/images/tema3/ico_3.svg').mb-3
-            .col-5.col-lg-9     
+    
+    .row.align-items-center.justify-content-center.mb-5.d-block.d-lg-none.p-5
+      .col.col-lg-10(data-aos="fade-right") 
+        .jumbotron-12.p-3
+          .row.justify-content-center.align-items-center
+            .col-4.col-lg-2
+                img(src='@/assets/curso/images/tema3/ico_3.svg').mb-3
+            .col-10.col-lg-9     
                 ol.lista-ol
                   li 
                     span.text-bold 1. 
@@ -297,6 +291,29 @@
                     span.text-bold 4. 
                     p.mb-0 Obtención de  información. 
 
+    .row.align-items-center.justify-content-center.d-none.d-lg-block
+      .row.align-items-center.justify-content-evenly.mb-5
+        .col.col-lg-8(data-aos="fade-right") 
+          .jumbotron-12.p-5
+            .row.justify-content-center.align-items-center
+              .col-4.col-lg-2
+                img(src='@/assets/curso/images/tema3/ico_3.svg').mb-3
+              .col-5.col-lg-9     
+                  ol.lista-ol
+                    li 
+                      span.text-bold 1. 
+                      p.mb-0 Determinar la problemática a estudiar. 
+                    li 
+                      span.text-bold 2. 
+                      p.mb-0 Identificar la  población. 
+                    li 
+                      span.text-bold 3. 
+                      p.mb-0 Planificar la entrevista: comienzo - desarrollo - cierre.
+                    li 
+                      span.text-bold 4. 
+                      p.mb-0 Obtención de  información. 
+
+
     .row.justify-content-center.align-items-center.my-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-4.mb-5
@@ -304,7 +321,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col-5.col-lg-2
-                  img.mx-1(src="@/assets/curso/images/tema3/ico_4.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;")
+                  img.mx-1(src="@/assets/curso/images/tema3/ico_4.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
                   h3.text-white Afiance su saber en relación con la entrevista, explorando el documento: 
                   p.mb-1.text-white Anexo_1_LaEntrevista.
