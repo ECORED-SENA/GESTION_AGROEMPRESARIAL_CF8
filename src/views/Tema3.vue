@@ -182,7 +182,7 @@
     Separador
 
     #t_3_2.titulo-segundo
-      .h4 3.2  Entrevista
+      .h2 3.2  Entrevista
 
     p.mb-3 Esta es considerada como una herramienta en la recolección de información, generalmente óptima cuando lo que se espera recolectar son datos mayoritariamente cualitativos, puesto que la fuente de información se centra en la opinión de la población encuestada, su eficacia no depende en la cantidad de opiniones recolectadas, sino en la justificación de esta. 
 
@@ -335,7 +335,7 @@
     Separador
 
     #t_3_3.titulo-segundo
-      .h4 3.3 Encuesta
+      .h2 3.3 Encuesta
 
     p.mb-3 La encuesta se define como una técnica de recolección de información, utilizada, principalmente, para la investigación cuantitativa de uso frecuente, se considera un instrumento útil en los procesos de investigación, porque permite adquirir distintos tipos de información de forma fácil, objetiva y directa.
 
@@ -419,7 +419,7 @@
     Separador
 
     #t_3_4.titulo-segundo
-      .h4 3.4 Análisis de contenido 
+      .h2 3.4 Análisis de contenido 
 
     p.mb-3 La aplicación de esta metodología <b>consiste en extraer y procesar datos esenciales, para así generar nuevos conocimientos.</b> Requiere el uso, principalmente, de fuentes de información independientes, documentos creados anteriormente por otros expertos en un contexto social específico. 
 

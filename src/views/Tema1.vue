@@ -259,7 +259,7 @@
 
                 p.mb-3 Deben existir <b> medidas que garanticen que la información almacenada solo llegue a los destinatarios deseados;</b> de lo contrario, los datos están expuestos a ser obtenidos por terceros que pueden ser malintencionados. Existe información muy sensible como datos personales de terceros, listados de clientes y proveedores clave o, incluso, fórmulas o métodos de producción efectivos que brindan ventajas competitivas en relación con otras empresas.
 
-          .row(titulo='Análisis y explotación de datos' numero='3')
+          .row(titulo='Gestión y trabajo colaborativo' numero='3')
             .row.justify-content-center.align-items-star
               .col-12.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema1/img_6.png').mb-3
@@ -301,7 +301,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/images/tema1/img_9.svg').mb-3
-      .col-12.col-lg-8.mb-4.p-0.p-md-5(data-aos="fade-left")
+      .col-12.col-lg-8.mb-4.p-0.p-md-1(data-aos="fade-left")
         ul.lista-ul--color
           li 
             i.fas.fa-check
@@ -379,13 +379,13 @@
               h4.mb-5.text-center  Decreto 1377 de 2013 
           .row.justify-content-center.align-items-center
             .col-4.col-lg-4.mb-4.mb-lg-0.p-0 
-              a.boton.me-3.indicador__container.color-boton(
+              a.boton.me-3.indicador__container(
                 :href="obtenerLink('downloads/DECRETO1377DE2013.pdf')"
                 target="_blank"
                 type="application/pdf"
                 @mouseover="mostrarIndicador = false"
               )
-                span.color-text-1 Descargar
+                span Descargar
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")  
 

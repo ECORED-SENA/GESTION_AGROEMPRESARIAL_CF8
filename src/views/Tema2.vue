@@ -8,7 +8,7 @@
       h1 Estadística
 
     .row.justify-content-center.align-items-center
-      .col-12.col-lg-7.mb-4.p-0.p-md-5(data-aos="fade-right") 
+      .col-12.col-lg-7.mb-4.p-0.p-md-1(data-aos="fade-right") 
         p.fondo-2.mb-3.p-2 Si la información es un elemento de vital importancia para la gestión y toma de decisiones, la estadística es la ciencia encargada de diseñar sistemas o metodologías que faciliten el proceso de recopilación y análisis de los datos, con el objetivo de obtener conclusiones, a partir de ellos o predecir situaciones a futuro en función de las tendencias que se identifiquen.
         .jumbotron-5.p-4
           p.mb-3 La estadística tiene la particularidad de ser útil en una multitud de disciplinas y profesiones, puesto que el análisis de la información recolectada se constituye como una actividad ligada a cualquier razonamiento lógico del ser humano. 
@@ -66,6 +66,8 @@
           .row.justify-content-center.align-items-center
             .col-5.col-lg-5.mb-4.mb-lg-0
               img(src='@/assets/curso/images/tema2/ico_7.svg').mb-3
+          .row.justify-content-center.align-items-center
+            .col-5.col-lg-6.mb-4.mb-lg-0
               h4.mb-3.text-center Estadística descriptiva
             p.mb-3 Se concentra en la descripción y evaluación de los fenómenos objeto de estudio. Detalla diversos sistemas de recolección, medición e interpretación de datos. Como herramientas de apoyo usa tabulaciones y gráficos que complementan los análisis descriptivos en donde se compilan las características fundamentales del fenómeno.
       .col-lg-5(data-aos="fade-left") 
@@ -73,6 +75,8 @@
           .row.justify-content-center.align-items-center
             .col-5.col-lg-5.mb-4.mb-lg-0
               img.mt-3(src='@/assets/curso/images/tema2/ico_8.svg').mb-3
+          .row.justify-content-center.align-items-center
+            .col-5.col-lg-6.mb-4.mb-lg-0
               h4.text-center Estadística inferencial
             p.mb-0 Pone su objetivo en la percepción y anticipación de eventos que aún no han sucedido. Su principal objetivo es deducir comportamientos a partir de la información recolectada. Identifica  tendencias sostenibles en el tiempo, a partir de datos obtenidos de una muestra y que, posteriormente, se escalarán a una población mayor.
 
