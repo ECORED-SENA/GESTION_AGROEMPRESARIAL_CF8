@@ -379,7 +379,7 @@
               h4.mb-5.text-center  Decreto 1377 de 2013 
           .row.justify-content-center.align-items-center
             .col-4.col-lg-4.mb-4.mb-lg-0.p-0 
-              a.boton.me-3.indicador__container.color-boton(
+              a.boton.me-3.indicador__container.color-boton-1(
                 :href="obtenerLink('downloads/DECRETO1377DE2013.pdf')"
                 target="_blank"
                 type="application/pdf"
@@ -389,7 +389,9 @@
                 i.fas.fa-file-download
                 .indicador--click(v-if="mostrarIndicador")  
 
-        
+   
+  
+
 
 
 

@@ -52,7 +52,7 @@
     Separador
 
     #t_3_1.titulo-segundo
-      .h4 3.1 Observación
+      .h2 3.1 Observación
 
     .row.justify-content-center.align-items-star  
       .col-12.col-lg-6.mb-4.p-0.p-md-2(data-aos="fade-right")
@@ -226,7 +226,7 @@
 
     p.mb-5 Según la interacción gestada en el ejercicio de la entrevista, se puede establecer la siguiente clasificación de la metodología:
 
-    .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-6.mb-0.mg-top-1.cs
+
     .row.align-items-center.justify-content-evenly.mb-5
       .col-lg-6(data-aos="fade-right")
         ImagenInfografica.color-secundario.mb-5
