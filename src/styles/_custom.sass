@@ -180,9 +180,12 @@
   @media (max-width: 397px)
     width: 350px
     margin-left: -21px !important
+  @media (max-width: 768px)
+    width: 100%
   @media (max-width: 992px)
-    width: 390px
-    margin-left: -24px
+    background-size: cover
+    width: 100%
+
  
 .fondo-5
   background-image: url("../assets/curso/images/tema3/back_cajon.svg")
@@ -192,11 +195,10 @@
     width: 290px !important
     margin-left: 35px !important
   @media (max-width: 397px)
-    width: 350px
-    margin-left: -21px !important
+    width: 100%
   @media (max-width: 992px)
-    width: 390px
-    margin-left: -24px
+    width: 100%
+    
 
 .fondo-6
   background-image: url('../assets/curso/images/tema3/back.svg')
@@ -209,13 +211,16 @@
   background-size: 100%
   @media (max-width: 412px)
     background-size: cover
-    margin-left: -20px !important
   @media (max-width: 397px)
     width: 350px
     margin-left: -21px !important
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: -5px !important
   @media (max-width: 992px)
-    width: 390px
-    margin-left: -24px
+    background-size: cover
+    width: 100%
+  
 
 .mg-top-1
   margin-top: -40px !important
@@ -246,6 +251,9 @@
   @media (max-width: 397px)
     width: 350px
     margin-left: -21px !important
+  @media (max-width: 768px)
+    width: 100%
+    margin-left: -45px !important
   @media (max-width: 992px)
     width: 390px
     margin-left: -24px
@@ -267,7 +275,12 @@
 .color-boton-1
 	background-color: #a3314f 
 	&::before
-		background-color: #ffb500
+		background-color: #a3314f 
+
+.boton:active, .boton--sm:active, .boton:focus, .boton--sm:focus, .boton:hover, .boton--sm:hover 
+  background-color: #FF973D
+  transform: scale(1.05)
+
 
 .jumbotron
   background-color: #E1E4A8  

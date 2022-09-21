@@ -10,7 +10,7 @@
     p.mb-3 Cuando se pretende realizar un estudio de cualquier naturaleza, es de suma importancia aclarar incógnitas como: qué tipo de información será solicitada, qué herramienta será utilizada y en qué tipo de población será aplicada. Por ende, es aconsejable partir de reconocer los requisitos que se espera cubrir y la naturaleza de la información para, así, finalmente, plantear metodologías que se adapten de forma efectiva al perfil del estudio en cuestión.     
 
     .row.justify-content-center.align-items-center.mb-3.p-2
-      .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-right")
+      .col-lg-5(data-aos="fade-right")
         p.fondo-5.mb-3.p-2 En el curso o desarrollo de una investigación, la metodología de recolección de información toma un importante papel, puesto que la elección apropiada de esta, evita la obtención de resultados inútiles, esfuerzos desproporcionados, desaprovechamiento de recursos y el inadecuado manejo del tiempo, minimizando de forma influyente el margen de error.
       
       .col-lg-5(data-aos="fade-left") 
@@ -53,7 +53,7 @@
 
     #t_3_1.titulo-segundo
       .h2 3.1 Observación
-
+    
     .row.justify-content-center.align-items-star  
       .col-12.col-lg-6.mb-4.p-0.p-md-2(data-aos="fade-right")
         p.mb-3  Los seres humanos a través de los sentidos tienen la capacidad de adquirir diferentes tipos de información o estímulos que les permiten adaptarse en un entorno y reconocer diferentes factores de este. La observación es uno de ellos, por medio de ella se pueden percibir datos y detalles específicos en lugares y momentos determinados, por lo tanto, se podría decir que funciona como un método de recolección de información.
@@ -324,10 +324,10 @@
                   img.mx-1(src="@/assets/curso/images/tema3/ico_4.svg",  alt='', style="width:60px; display:block; margin:auto 0 ;")
                 .col.mb-3.mb-sm-0
                   h3.text-white Afiance su saber en relación con la entrevista, explorando el documento: 
-                  p.mb-1.text-white Anexo_1_LaEntrevista.
+                  p.mb-1.text-white Anexo 1. La Entrevista.
                 .col-md-auto
                   a.boton.color-custom-7(:href="obtenerLink('downloads/Anexo1LaEntrevista.pdf')" target="_blank")
-                    span Ver
+                    span Descargar
                     .row
                       .col-auto
                         img.mx-2(src="@/assets/curso/images/tema1/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
@@ -485,12 +485,15 @@
             p.mb-0  En esta categoría procura identificar la evolución o desarrollo de un aspecto en específico, por ende, sus bases de información se derivan de diferentes momentos en el tiempo, un ejemplo concreto sería el diario de un medio.
           
           .tarjeta.color-custom-4.p-3(x="92%" y="59%" numero="+")
-            .h5.mb-2 Cuantitativos
-            p.mb-0  La información que se utiliza en este tipo de análisis puede ser medida o cuantificada, se utilizan medidas estadísticas, su objetivo es soportar los resultados de la información recolectada.
-
-          .tarjeta.color-custom-4.p-3(x="92%" y="42%" numero="+")
             .h5.mb-2 Cualitativos
             p.mb-0  Prevalece el elemento descriptivo en todo proceso, desde los datos recolectados hasta la información proporcionada por medio de las conclusiones de la investigación, el análisis, generalmente, se enfoca en características no medibles.
+            
+
+          .tarjeta.color-custom-4.p-3(x="92%" y="42%" numero="+")
+            .h5.mb-2 Cuantitativos
+            p.mb-0  La información que se utiliza en este tipo de análisis puede ser medida o cuantificada, se utilizan medidas estadísticas, su objetivo es soportar los resultados de la información recolectada.
+            
+
 
 
 

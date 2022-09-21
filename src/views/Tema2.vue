@@ -36,7 +36,49 @@
     p.mb-3 En definitiva, de las funcionalidades de la estadística se desprenden algunos objetivos que son de vital importancia en la operación de las empresas u organizaciones, a saber:
 
     .row.justify-content-center.align-items-center.mb-3
-      SlyderB.color-custom-6.mb-5(:datos="datosSlyder")(data-aos="zoom-in-down")
+      SlyderE(indicadores="derecha")(data-aos="zoom-in-down")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h3 Conocer características de una población objetivo
+            p Y a partir de ello diseñar proyecciones. Por ejemplo, efectuar un estudio demográfico en un municipio determinado para determinar la cantidad de leche que consumen sus habitantes y con ello evaluar si es viable constituir una unidad productiva pecuaria, que venda en esa zona en específico.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h3 Estudiar todo tipo de eventos
+            p A través de la evaluación de relaciones entre dos o más variables. Por ejemplo, determinar si existe una relación entre la disminución en ventas de un producto y la llegada de uno que cumple su misma función por parte de la competencia.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/images/tema2/img_3.png', alt='Texto que describa la imagen')
+    
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h3 Aportar contenido suficiente para que se tomen decisiones
+            p A partir de la información recolectada. Un ejemplo de esto son las encuestas de satisfacción que diligencian los clientes por un producto determinado, si todos coinciden en que su precio es elevado, puede servir como elemento clave en un análisis que lleve a la disminución de sus precios de venta.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/images/tema2/img_4.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h3 Efectuar interpretaciones según datos recolectados de una muestra
+            p Y a partir de ello, extrapolarlas a una población mayor. Este tipo de mecánicas suelen ser muy recurrentes en estudios políticos, por ejemplo cuando se busca medir la popularidad de candidatos presidenciales, se evalúan unos cuantos miles de personas, y el resultado se utiliza para estimar tendencias aplicables a todo el país. 
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/images/tema2/img_5.png', alt='Texto que describa la imagen')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h3 Aportar a la aplicación de metodologías de análisis de otros oficios o profesiones
+            p El análisis de datos es aplicable a casi cualquier campo en el que se desenvuelva la humanidad; de esta forma, la estadística facilita el anticiparse a situaciones propias de otras disciplinas, como el potencial impacto a nivel mundial de un virus descubierto en la actualidad.
+          .col-md-6
+            figure
+              img(src='@/assets/curso/images/tema2/img_6.png', alt='Texto que describa la imagen')
 
     Separador
 
@@ -50,7 +92,7 @@
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
           h5 Figura 2
           br
-          span  Ciclo de vida de la información
+          span  Clasificación de la estadística
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/fig_1.svg')
@@ -150,7 +192,7 @@
       .col-lg-10
         .jumbotron-8.p-5
           .row.align-items-center.justify-content-evenly.mb-3
-            .col-5.col-lg-1.px-md-0
+            .col-5.col-lg-1.px-md-0.col-sm-3
               img(src='@/assets/curso/images/tema2/ico_2.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Población o universo (N)
@@ -181,7 +223,7 @@
                           td.text-center 99%
                           td.text-center 2.576
           .row.align-items-center.justify-content-evenly.d-block.d-lg-none
-            .col-5.col-lg-1
+            .col-5.col-lg-1.col-sm-3
               img.mx-5(src='@/assets/curso/images/tema2/ico_3.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Nivel de confianza
@@ -189,21 +231,21 @@
               img(src='@/assets/curso/images/tema2/img_tab.svg').mb-3
 
           .row.align-items-center.justify-content-evenly.mb-3
-            .col-5.col-lg-1.px-md-0
+            .col-5.col-lg-1.px-md-0.col-sm-3
               img(src='@/assets/curso/images/tema2/ico_4.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Margen de error (e)
               p.mb-0 Mide el rango de tolerancia que diferencia al resultado obtenido de la muestra en comparación con el de la población. Por ejemplo, un margen de error del 5% implica que si el resultado de un estudio es una estatura promedio de las personas de la muestra en 1,80 cm, este indicador en la población oscila entre 1,71 cm y 1,89 cm, es decir 5% menor o 5% mayor del valor obtenido.
 
           .row.align-items-center.justify-content-evenly.mb-3
-            .col-5.col-lg-1.px-md-0
+            .col-5.col-lg-1.px-md-0.col-sm-3
               img(src='@/assets/curso/images/tema2/ico_5.svg').mb-3
             .col-5.col-lg-10.fondo-4.p-5
               h4 Probabilidad de éxito (p)
               p.mb-0 Este indicador puede tomarse de otros estudios previos relacionados, si no existe ninguna noción al respecto, se deduce que la probabilidad de éxito y de fracaso son equivalentes, es decir 50%.
 
           .row.align-items-center.justify-content-evenly
-            .col-5.col-lg-1.px-md-0.d-none.d-lg-block
+            .col-5.col-lg-1.px-md-0.col-sm-3.d-none.d-lg-block
               img(src='@/assets/curso/images/tema2/ico_6.svg').mb-2
             .col-5.col-lg-10.d-none.d-lg-block
               .row.align-items-center.justify-content-center.fondo-4.py-5
@@ -213,7 +255,7 @@
                 .col-5.col-lg-5
                   img(src='@/assets/curso/images/tema2/img_8.svg').mb-3
           .row.align-items-center.justify-content-evenly.d-block.d-lg-none
-            .col-5.col-lg-1
+            .col-5.col-lg-1.col-sm-3
               img.mx-5(src='@/assets/curso/images/tema2/ico_6.svg').mb-3
             .col-5.col-lg-11.fondo-4.p-5
               h4 Probabilidad de fracaso (q)
@@ -267,42 +309,7 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    datosSlyder: [
-      {
-        titulo: 'Conocer características de una población objetivo',
-        texto:
-          'Y a partir de ello diseñar proyecciones. Por ejemplo, efectuar un estudio demográfico en un municipio determinado para determinar la cantidad de leche que consumen sus habitantes y con ello evaluar si es viable constituir una unidad productiva pecuaria, que venda en esa zona en específico.',
-        imagen: require('@/assets/curso/images/tema2/img_2.png'),
-      },
-      {
-        titulo: 'Estudiar todo tipo de eventos',
-        texto:
-          'A través de la evaluación de relaciones entre dos o más variables. Por ejemplo, determinar si existe una relación entre la disminución en ventas de un producto y la llegada de uno que cumple su misma función por parte de la competencia.',
-        imagen: require('@/assets/curso/images/tema2/img_3.png'),
-      },
-      {
-        titulo: 'Aportar contenido suficiente para que se tomen decisiones',
-        texto:
-          'A partir de la información recolectada. Un ejemplo de esto son las encuestas de satisfacción que diligencian los clientes por un producto determinado, si todos coinciden en que su precio es elevado, puede servir como elemento clave en un análisis que lleve a la disminución de sus precios de venta.',
-        imagen: require('@/assets/curso/images/tema2/img_4.png'),
-      },
-      {
-        titulo:
-          'Efectuar interpretaciones según datos recolectados de una muestra',
-        texto:
-          'Y a partir de ello, extrapolarlas a una población mayor. Este tipo de mecánicas suelen ser muy recurrentes en estudios políticos, por ejemplo cuando se busca medir la popularidad de candidatos presidenciales, se evalúan unos cuantos miles de personas, y el resultado se utiliza para estimar tendencias aplicables a todo el país. ',
-        imagen: require('@/assets/curso/images/tema2/img_5.png'),
-      },
-      {
-        titulo:
-          'Aportar a la aplicación de metodologías de análisis de otros oficios o profesiones',
-        texto:
-          'El análisis de datos es aplicable a casi cualquier campo en el que se desenvuelva la humanidad; de esta forma, la estadística facilita el anticiparse a situaciones propias de otras disciplinas, como el potencial impacto a nivel mundial de un virus descubierto en la actualidad.',
-        imagen: require('@/assets/curso/images/tema2/img_6.png'),
-      },
-    ],
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
