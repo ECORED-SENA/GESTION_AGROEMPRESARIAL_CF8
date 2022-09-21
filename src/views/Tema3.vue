@@ -145,9 +145,6 @@
 
           .tarjeta.color-custom-4.p-3(x="20%" y="67%" numero="+")
             .row.align-items-center.justify-content-center
-              .col-5.col-lg-2
-                 img(src='@/assets/curso/images/tema3/ico_1.svg').mb-3
-              .col-5.col-lg-10
                 .h5.mb-2 Estructurada
                 p.mb-3 Esta modalidad también se reconoce como, sistémica, concentrada o localizada; su objetivo es identificar los aspectos relevantes a observar y el observador utiliza métodos muy estructurados para la recolección de datos.
 

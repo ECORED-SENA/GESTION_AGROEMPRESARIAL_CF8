@@ -46,7 +46,7 @@
                     h4.text-center La información 
                     p.mb-4 Consiste en la disposición de estos datos dentro de una situación y marco de tiempo concreto. Así, los datos se convierten en información una vez se les da un sentido lógico que les aporte la utilidad necesaria para ser estudiados.
 
-    p.mb-3 “Para comprender mejor la diferencia entre datos e información, siga con atención los siguientes ejemplos:” antes de la línea de tiempo
+    p.mb-3 Para comprender mejor la diferencia entre datos e información, siga con atención los siguientes ejemplos:
 
     .row.justify-content-center.align-items-center.p-2
       .col-12.col-lg-5.mb-4.p-0.p-md-5(data-aos="fade-right")
@@ -266,7 +266,7 @@
               .col-12.col-lg-4.mb-4.mb-lg-0
                 img(src='@/assets/curso/images/tema1/img_6.png').mb-3
               .col-12.col-lg-8.mb-4.mb-lg-0
-                p.mb-3  “Para esta etapa, se otorgan los permisos y las autorizaciones a cada usuario de la información, de tal manera que aporte en un trabajo mancomunado en la organización. Existirán usuarios que solo puedan consultar los datos, así como otros que puedan editar o adicionar el contenido para complementar el trabajo. Una adecuada coordinación de los integrantes del equipo garantiza un trabajo más eficiente y con menor margen de error, gracias a la revisión y retroalimentación permanente proveniente de distintas fuentes.”
+                p.mb-3 Para esta etapa, se otorgan los permisos y las autorizaciones a cada usuario de la información, de tal manera que aporte en un trabajo mancomunado en la organización. Existirán usuarios que solo puedan consultar los datos, así como otros que puedan editar o adicionar el contenido para complementar el trabajo. Una adecuada coordinación de los integrantes del equipo garantiza un trabajo más eficiente y con menor margen de error, gracias a la revisión y retroalimentación permanente proveniente de distintas fuentes.
           
           .row(titulo='Análisis y explotación de datos' numero='4')
             .row.justify-content-center.align-items-star
