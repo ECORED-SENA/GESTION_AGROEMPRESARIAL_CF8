@@ -34,51 +34,52 @@
     p.mb-3 Si bien la principal función de la estadística es aportar los medios necesarios para comprender los hechos sobre los cuales se recolecta información. La aproximación objetiva a la realidad y el entendimiento de la misma, son beneficios que la estadística trae consigo y que, para las organizaciones, representa poder describir procesos, sugerir hipótesis de estrategias, entre otras.
 
     p.mb-3 En definitiva, de las funcionalidades de la estadística se desprenden algunos objetivos que son de vital importancia en la operación de las empresas u organizaciones, a saber:
-
-    .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-down")
-      SlyderE(indicadores="derecha")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Conocer características de una población objetivo
-            p Y a partir de ello diseñar proyecciones. Por ejemplo, efectuar un estudio demográfico en un municipio determinado para determinar la cantidad de leche que consumen sus habitantes y con ello evaluar si es viable constituir una unidad productiva pecuaria, que venda en esa zona en específico.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen')
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Estudiar todo tipo de eventos
-            p A través de la evaluación de relaciones entre dos o más variables. Por ejemplo, determinar si existe una relación entre la disminución en ventas de un producto y la llegada de uno que cumple su misma función por parte de la competencia.
-
-          .col-md-6
-            figure
-              img(src='@/assets/curso/images/tema2/img_3.png', alt='Texto que describa la imagen')
     
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Aportar contenido suficiente para que se tomen decisiones
-            p A partir de la información recolectada. Un ejemplo de esto son las encuestas de satisfacción que diligencian los clientes por un producto determinado, si todos coinciden en que su precio es elevado, puede servir como elemento clave en un análisis que lleve a la disminución de sus precios de venta.
+    .row.justify-content-center.mb-3(data-aos="fade-left")
+      .col-lg-11
+        SlyderE(indicadores="derecha")
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Conocer características de una población objetivo
+              p Y a partir de ello diseñar proyecciones. Por ejemplo, efectuar un estudio demográfico en un municipio determinado para determinar la cantidad de leche que consumen sus habitantes y con ello evaluar si es viable constituir una unidad productiva pecuaria, que venda en esa zona en específico.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/img_2.png', alt='Texto que describa la imagen')
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/images/tema2/img_4.png', alt='Texto que describa la imagen')
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Estudiar todo tipo de eventos
+              p A través de la evaluación de relaciones entre dos o más variables. Por ejemplo, determinar si existe una relación entre la disminución en ventas de un producto y la llegada de uno que cumple su misma función por parte de la competencia.
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Efectuar interpretaciones según datos recolectados de una muestra
-            p Y a partir de ello, extrapolarlas a una población mayor. Este tipo de mecánicas suelen ser muy recurrentes en estudios políticos, por ejemplo cuando se busca medir la popularidad de candidatos presidenciales, se evalúan unos cuantos miles de personas, y el resultado se utiliza para estimar tendencias aplicables a todo el país. 
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/img_3.png', alt='Texto que describa la imagen')
+      
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Aportar contenido suficiente para que se tomen decisiones
+              p A partir de la información recolectada. Un ejemplo de esto son las encuestas de satisfacción que diligencian los clientes por un producto determinado, si todos coinciden en que su precio es elevado, puede servir como elemento clave en un análisis que lleve a la disminución de sus precios de venta.
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/images/tema2/img_5.png', alt='Texto que describa la imagen')
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/img_4.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Aportar a la aplicación de metodologías de análisis de otros oficios o profesiones
-            p El análisis de datos es aplicable a casi cualquier campo en el que se desenvuelva la humanidad; de esta forma, la estadística facilita el anticiparse a situaciones propias de otras disciplinas, como el potencial impacto a nivel mundial de un virus descubierto en la actualidad.
-          .col-md-6
-            figure
-              img(src='@/assets/curso/images/tema2/img_6.png', alt='Texto que describa la imagen')
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Efectuar interpretaciones según datos recolectados de una muestra
+              p Y a partir de ello, extrapolarlas a una población mayor. Este tipo de mecánicas suelen ser muy recurrentes en estudios políticos, por ejemplo cuando se busca medir la popularidad de candidatos presidenciales, se evalúan unos cuantos miles de personas, y el resultado se utiliza para estimar tendencias aplicables a todo el país. 
+
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/img_5.png', alt='Texto que describa la imagen')
+
+          .row
+            .col-md-6.mb-4.mb-md-0
+              h3 Aportar a la aplicación de metodologías de análisis de otros oficios o profesiones
+              p El análisis de datos es aplicable a casi cualquier campo en el que se desenvuelva la humanidad; de esta forma, la estadística facilita el anticiparse a situaciones propias de otras disciplinas, como el potencial impacto a nivel mundial de un virus descubierto en la actualidad.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/images/tema2/img_6.png', alt='Texto que describa la imagen')
 
     Separador
 
